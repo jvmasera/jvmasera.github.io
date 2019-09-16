@@ -1,0 +1,26 @@
+.navbar {
+  background: #07090D !important;
+}
+
+.bg-primary {
+    background-color: #03738C !important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #0396A6;
+}
+
+.text-secondary {
+    color: #023859 !important;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: rgba(3,150,166,.9);
+}
+
+@media (min-width: 992px){
+  #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+      color: #fff;
+      background: #0396A6 !important;
+  }
+}
