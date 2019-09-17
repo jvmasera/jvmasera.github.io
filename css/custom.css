@@ -18,6 +18,15 @@
     background-color: rgba(3,150,166,.9);
 }
 
+.pg-canvas {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: auto;
+}
+
 @media (min-width: 992px){
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
       color: #fff;
