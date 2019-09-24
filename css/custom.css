@@ -23,8 +23,30 @@
     display: block;
     top: 0px;
     left: 0px;
-    height: 100%;
-    width: auto;
+    height: 768px;
+    width: 100%;
+}
+
+#portfolio {
+    background: #2c2c2c;
+}
+
+#portfolio .text-secondary {
+    color: #fff !important;
+}
+
+#portfolio .divider-custom .divider-custom-line{
+  background: #fff !important;
+}
+
+#portfolio .divider-custom .divider-custom-icon{
+  color: #fff !important;
+}
+
+#particles{
+  background-image:url('../img/code-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 992px){
