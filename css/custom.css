@@ -43,15 +43,28 @@
   color: #fff !important;
 }
 
+.portfolio-modal .close {
+    color: #0396A6;
+}
+
 #particles{
-  background-image:url('../img/code-background.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  min-height: 400px !important;
+background: transparent !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0396A6 !important;
+    border-color: #0396A6 !important;
 }
 
 @media (min-width: 992px){
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
       color: #fff;
       background: #0396A6 !important;
+      transition: all 0.3s;
+  }
+  #mainNav .navbar-nav>li.nav-item>a.nav-link {
+      transition: all 0.3s;
   }
 }

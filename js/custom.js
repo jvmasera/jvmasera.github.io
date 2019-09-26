@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+  //Partículas
   $('#particles').particleground({
     minSpeedX: 0.1,
     maxSpeedX: 0.7,
@@ -17,5 +19,13 @@ $(document).ready(function() {
     parallaxMultiplier: 5, // The lower the number, the more extreme the parallax effect
     onInit: function() {},
     onDestroy: function() {}
+  });
+
+  //parallax
+  $('#particles').parallax({
+    imageSrc: 'img/code-background.png',
+    overScrollFix: true,
+    bleed:500,
+    speed: 0.2
   });
 });
