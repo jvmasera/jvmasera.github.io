@@ -156,11 +156,19 @@ ul#timeline-menu li a:hover {
 }
 
 #contato {
-    background: #797979 !important;
+    background: #2e2e2e !important;
 }
 
 .copyright{
-    background-color: #2e2e2e !important;
+    background-color: #797979 !important;
+    color: #d6d6d6;
+}
+
+.carteira {
+    color: #e83e8c;
+    word-break: break-word;
+    background: #ffffff;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
 @media screen and (max-device-width: 640px) {

@@ -267,4 +267,8 @@ $(document).ready(function() {
   });
 
   $('#copyright-year').text(new Date().getFullYear());
+
+  $('#wallet-btn').on('click', () => {
+    navigator.clipboard.writeText($('#wallet-hash').val())
+  })
 });
