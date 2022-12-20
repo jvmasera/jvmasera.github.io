@@ -155,9 +155,13 @@ ul#timeline-menu li a:hover {
     border-bottom: 5px solid #1abc9c;
 }
 
-/*#jornada {*/
-/*    background: #fff;*/
-/*}*/
+#contato {
+    background: #797979 !important;
+}
+
+.copyright{
+    background-color: #2e2e2e !important;
+}
 
 @media screen and (max-device-width: 640px) {
     section#timeline > article > div.panel {
