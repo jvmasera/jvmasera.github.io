@@ -1,9 +1,3 @@
-body, html {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-}
-
 .navbar {
   background: #07090D !important;
 }
@@ -161,6 +155,10 @@ ul#timeline-menu li a:hover {
     border-bottom: 5px solid #1abc9c;
 }
 
+/*#jornada {*/
+/*    background: #fff;*/
+/*}*/
+
 @media screen and (max-device-width: 640px) {
     section#timeline > article > div.panel {
         width: initial;
@@ -183,5 +181,18 @@ ul#timeline-menu li a:hover {
 
     .lead {
         text-align: center;
+    }
+
+    body, html {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    #particles {
+        background-attachment: fixed !important;
+        background-size: cover !important;
+        background-image: url(../img/bg_1.jpg) !important;
+        background-position: center center !important;
     }
 }
