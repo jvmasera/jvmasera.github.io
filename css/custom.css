@@ -68,3 +68,89 @@ background: transparent !important;
       transition: all 0.3s;
   }
 }
+
+.monokai-bg {
+    background: #2e2e2e !important;
+}
+
+.monokai-comments {
+    color: #797979 !important;
+}
+
+.monokai-white {
+    color: #d6d6d6 !important;
+}
+
+.monokai-bg-white {
+    background: #d6d6d6 !important;
+}
+
+.monokai-yellow {
+    color: #e5b567 !important;
+}
+
+.monokai-green {
+    color: #b4d273 !important;
+}
+
+.monokai-orange {
+    color: #e87d3e !important;
+}
+
+.monokai-purple {
+    color: #9e86c8 !important;
+}
+
+.monokai-pink {
+    color: #b05279 !important;
+}
+
+.monokai-blue {
+    color: #6c99bb !important;
+}
+
+section#timeline div[class*="group"], section#timeline article div.panel div.badge {
+    cursor: initial;
+    padding: initial;
+    line-height: initial;
+    white-space: initial;
+    vertical-align: initial;
+    transition: initial;
+}
+
+ul#timeline-menu {
+    height: 50px;
+    text-align: center !important;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    padding: 0px;
+}
+
+section#timeline div[class*="group"] {
+    background: #b05279;
+    box-shadow: 0 0 0 2px #b05279, inset 0 2px 0 rgb(0 0 0 / 10%), 0 3px 0 2px rgb(0 0 0 / 15%);
+}
+
+section#timeline article div.panel div.badge
+{
+    color: #b05279;
+    box-shadow: 0 0 0 2px #b05279, inset 0 2px 0 rgb(0 0 0 / 10%), 0 3px 0 2px rgb(0 0 0 / 15%);
+}
+
+section#timeline:before {
+    background-color: #b05279;
+}
+
+section#timeline > article > div.panel .panel-heading {
+    background-color: #b05279;
+}
+
+section#timeline article div.panel div.badge:last-child {
+    background-color: #b05279;
+}
+
+ul#timeline-menu li a:hover {
+    color: #1abc9c;
+    border-bottom: 5px solid #1abc9c;
+}
