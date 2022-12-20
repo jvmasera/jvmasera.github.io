@@ -265,4 +265,6 @@ $(document).ready(function() {
     language: "pt-br",
     sortDesc: true
   });
+
+  $('#copyright-year').text(new Date().getFullYear());
 });
