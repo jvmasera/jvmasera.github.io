@@ -1,3 +1,9 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 .navbar {
   background: #07090D !important;
 }
@@ -153,4 +159,29 @@ section#timeline article div.panel div.badge:last-child {
 ul#timeline-menu li a:hover {
     color: #1abc9c;
     border-bottom: 5px solid #1abc9c;
+}
+
+@media screen and (max-device-width: 640px) {
+    section#timeline > article > div.panel {
+        width: initial;
+        float: none;
+        margin: 15px 0px;
+    }
+    section#timeline article div.panel div.badge {
+        position: initial;
+        display: block;
+        margin: auto;
+        box-shadow: none !important;
+    }
+
+    section#timeline > article:last-of-type > div.panel {
+        box-shadow: none !important;
+    }
+    section#timeline article div.panel div.badge:last-child{
+        margin: auto;
+    }
+
+    .lead {
+        text-align: center;
+    }
 }
