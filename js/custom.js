@@ -65,7 +65,7 @@ $(document).ready(function() {
             'Trabalhos Realizados:<br/>' +
             '<ul>' +
             '<li>Manutenção e Desenvolvimento de evolutivas para o <a href="https://sinar.mec.gov.br/" target="_blank">SINAR - Sistema Nacional de Residências em Saúde</a>;</li>' +
-            '<li>Manutenção e Desenvolvimento de evolutivas para o <a href="https://plataformacarolinabori.mec.gov.br/" target="_blank">Plataforma Carolina Bori - Revalidação/Reconhecimento de Diplomas Estrangeiros</a>.</li>' +
+            '<li>Manutenção e Desenvolvimento de evolutivas para a <a href="https://plataformacarolinabori.mec.gov.br/" target="_blank">Plataforma Carolina Bori - Revalidação/Reconhecimento de Diplomas Estrangeiros</a>.</li>' +
             '</ul>',
         },
         {
