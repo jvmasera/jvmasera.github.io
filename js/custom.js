@@ -107,9 +107,10 @@ $(document).ready(function() {
           content: 'Atuação na área de tecnologia do RC.<br/>' +
             'Trabalhos Realizados:<br/>' +
             '<ul>' +
-            '<li>Desenvolvimento de componentes em React com integração ao SalesForce;</li>' +
-            '<li>Desenvolvimento de rotinas automatizadas com Python;</li>' +
+            '<li>Desenvolvimento de componentes em React com integração ao Salesforce;</li>' +
+            '<li>Desenvolvimento de rotinas automatizadas com Python via Cronjob e Apache Airflow;</li>' +
             '<li>Análise e modelagem de dados com PortgreSQL;</li>' +
+            '<li>Integração da API do Reclame Aqui ao Salesforce.</li>' +
             '</ul>',
           attr: {
             class: 'mt-3'
@@ -128,7 +129,7 @@ $(document).ready(function() {
           }
         }
       ],
-      footer: '<span  class="badge badge-dark"><b>Início: </b>17/01/2022</span> - <span class="badge badge-success">Atualmente</span>'
+      footer: '<span  class="badge badge-dark"><b>Início: </b>17/01/2022</span> - <span class="badge badge-success">17/04/2023</span>'
     },
     {
       time: '2020-03-18',
