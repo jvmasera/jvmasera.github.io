@@ -129,7 +129,7 @@ $(document).ready(function() {
           }
         }
       ],
-      footer: '<span  class="badge badge-dark"><b>Início: </b>17/01/2022</span> - <span class="badge badge-dark">17/04/2023</span>'
+      footer: '<span  class="badge badge-dark"><b>Início: </b>17/01/2022</span> - <span class="badge badge-dark"><b>Fim: </b>17/04/2023</span>'
     },
     {
       time: '2020-03-18',
