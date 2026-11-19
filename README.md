@@ -5,7 +5,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-masera-neves-59a74a12b/)
 [![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/joao-vitor-masera-neves/badges/credly)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5561983097758)
-[![Currículo](https://img.shields.io/badge/Curr%C3%ADculo-PDF-b05279?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Jo%C3%A3o%20Vitor%20Masera%20Neves.pdf)
+[![Currículo](https://img.shields.io/badge/Curr%C3%ADculo-PDF-b05279?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://jvmasera.github.io/?print)
 
 ---
 
@@ -32,6 +32,11 @@ Atuo como Senior Full Stack Developer com foco também em DevSecOps e infraestru
 | 03/2020 – 01/2022 | Basis (PR e MEC) | Full Stack Developer |
 | 04/2016 – 03/2020 | Conectando Pessoas | Full Stack Developer |
 
+### Formação acadêmica
+
+- **Pós-graduação Lato Sensu em Cybersecurity** — UDF Centro Universitário (02/2021 – 02/2022)
+- **Tecnólogo em Análise e Desenvolvimento de Sistemas** — UDF Centro Universitário (02/2014 – 02/2016)
+
 ### Certificações
 
 - **CKAD** — Certified Kubernetes Application Developer (The Linux Foundation, 11/2026)
@@ -47,7 +52,9 @@ Todos os badges em [Credly](https://www.credly.com/users/joao-vitor-masera-neves
 
 O site está publicado via GitHub Pages: **https://jvmasera.github.io**
 
-Construído sobre o tema [Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) (Start Bootstrap, licença MIT), com HTML, CSS, JavaScript e Bootstrap 4.
+O botão **Baixar currículo** abre a janela de impressão do navegador com este conteúdo formatado para papel, onde é possível imprimir ou salvar como PDF. O link `https://jvmasera.github.io/?print` já abre essa janela automaticamente.
+
+Site estático em HTML, CSS e JavaScript puros (`index.html`, `css/site.css`, `js/site.js`), com tema escuro responsivo. A estrutura do repositório parte do tema [Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) (Start Bootstrap, licença MIT).
 
 ### Executar localmente
 
