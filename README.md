@@ -1,68 +1,63 @@
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
+# João Vitor Masera Neves
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, window modals for each portfolio item, and a working PHP contact form.
+**Engenheiro de Software Sênior · Full Stack · DevSecOps**
 
-## Preview
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-masera-neves-59a74a12b/)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/joao-vitor-masera-neves/badges/credly)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5561983097758)
+[![Currículo](https://img.shields.io/badge/Curr%C3%ADculo-PDF-b05279?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./Jo%C3%A3o%20Vitor%20Masera%20Neves.pdf)
 
-[![Freelancer Preview](https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+---
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
+### Sobre
 
-## Status
+Atuo como Senior Full Stack Developer com foco também em DevSecOps e infraestrutura, construindo, evoluindo e sustentando aplicações e sistemas distribuídos de alta complexidade. Combino desenvolvimento de software com automação, observabilidade e segurança, atuando de ponta a ponta no ciclo de vida das aplicações.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
+### Stack
 
-## Download and Installation
+| Área | Tecnologias |
+| --- | --- |
+| Desenvolvimento | PHP, Laravel, Node.js, JavaScript, React, Vue.js, Python |
+| DevSecOps / Infra | Kubernetes, Docker, Kafka, CI/CD (Jenkins, GitLab), Linux, Elastic Stack (ELK) |
+| Dados | PostgreSQL, Oracle |
+| Metodologias | Scrum, Kanban |
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
-* Install via npm: `npm i startbootstrap-freelancer`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
+### Experiência
 
-## Usage
+| Período | Empresa | Cargo |
+| --- | --- | --- |
+| 02/2024 – atual | G4F (MRE – Itamaraty) | Engenheiro de Software Sênior |
+| 04/2022 – atual | Digisystem (MEC) | Engenheiro de Software Sênior |
+| 01/2022 – 04/2023 | Stone Co. | Full Stack Developer |
+| 03/2020 – 01/2022 | Basis (PR e MEC) | Full Stack Developer |
+| 04/2016 – 03/2020 | Conectando Pessoas | Full Stack Developer |
 
-### Basic Usage
+### Certificações
 
-After downloading, simply edit the HTML and CSS files included with the template in a code editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+- **CKAD** — Certified Kubernetes Application Developer (The Linux Foundation, 11/2026)
+- **CKA** — Certified Kubernetes Administrator (The Linux Foundation, 10/2026)
+- **LGPDF™** — Fundamentos na Lei Geral de Proteção de Dados (CertiProf, 08/2022)
+- **RWPC™** — Remote Work Professional Certification (CertiProf, 08/2022)
+- **SFPC™** — Scrum Foundation Professional Certification (CertiProf, 08/2022)
+- **Lifelong Learning** (CertiProf, 08/2022)
 
-### Advanced Usage
+Todos os badges em [Credly](https://www.credly.com/users/joao-vitor-masera-neves/badges/credly).
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+### Portfólio online
 
-#### Gulp Tasks
+O site está publicado via GitHub Pages: **https://jvmasera.github.io**
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+Construído sobre o tema [Freelancer](https://github.com/StartBootstrap/startbootstrap-freelancer) (Start Bootstrap, licença MIT), com HTML, CSS, JavaScript e Bootstrap 4.
 
-You must have npm and Gulp installed globally in order to use these features.
+### Executar localmente
 
-## Bugs and Issues
+```bash
+git clone https://github.com/jvmasera/jvmasera.github.io.git
+cd jvmasera.github.io
+npm install
+npm start
+```
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+### Licença
 
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Código do tema sob licença [MIT](./LICENSE). Conteúdo pessoal (textos, imagens e currículo) © João Vitor Masera Neves.

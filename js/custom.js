@@ -31,8 +31,72 @@ $(document).ready(function() {
 
   var data = [
     {
+      time: '2024-02-05',
+      header: 'Engenheiro de Software Sênior (CLT)',
+      body: [
+        {
+          tag: 'h2',
+          content: "G4F",
+          attr: {
+            class: 'd-inline pr-1'
+          }
+        },
+        {
+          tag: 'a',
+          content: '<i class="fa fa-link"></i>',
+          attr: {
+            href: 'https://www.g4f.com.br/',
+            target: '_blank',
+            title: 'Visitar Site',
+            class: 'btn-link'
+          }
+        },
+        {
+          tag: 'h6',
+          content: 'MRE – Ministério das Relações Exteriores (Itamaraty)',
+          attr: {
+            class: 'mt-3'
+          }
+        },
+        {
+          tag: 'p',
+          content: 'Construção e evolução do sistema de comunicação oficial entre a Secretaria de Estado e os postos no Brasil e no exterior. ' +
+            'Desenvolvimento de back-end e front-end, com criação de novas funcionalidades e correção de falhas. ' +
+            'Projetei e desenvolvi microsserviço de sincronização de documentos com arquitetura orientada a eventos e mensageria. ' +
+            'Integração com soluções corporativas de segurança e criptografia, serviço de indexação de dados, e implementação de observabilidade com Elastic Stack (ELK). ' +
+            'CI/CD, Kubernetes e sustentação de aplicações.<br />' +
+            'Trabalhos Realizados:<br/>' +
+            '<ul>' +
+            '<li>Desenvolvimento e Implantação DevOps do CAE Repositório Digital das teses do CAE com DSpace;</li>' +
+            '<li>Desenvolvimento do SICOM e microserviços relacionados;</li>' +
+            '<li>Sustentação das aplicações do Itamaraty;</li>' +
+            '<li>Migração de sistemas legados para atuais.</li>' +
+            '</ul>',
+        },
+        {
+          tag: 'span',
+          content: '<i class="devicon-linux-plain tech-icon m-1" title="Linux"></i>' +
+            '<i class="devicon-elasticsearch-plain tech-icon m-1" title="Elasticsearch"></i>' +
+            '<i class="devicon-php-plain tech-icon m-1" title="PHP"></i>' +
+            '<i class="devicon-zend-plain tech-icon m-1" title="Zend"></i>' +
+            '<i class="devicon-postgresql-plain tech-icon m-1" title="PostgreSQL"></i>' +
+            '<i class="devicon-kubernetes-plain tech-icon m-1" title="Kubernetes"></i>' +
+            '<i class="fab fa-node fa-2x m-1" title="Node.js"></i>' +
+            '<i class="devicon-angular-plain tech-icon m-1" title="Angular"></i>' +
+            '<i class="devicon-react-original tech-icon m-1" title="React"></i>' +
+            '<i class="devicon-apachekafka-original tech-icon m-1" title="Kafka"></i>' +
+            '<i class="devicon-figma-plain tech-icon m-1" title="Figma"></i>' +
+            '<i class="devicon-docker-plain tech-icon m-1" title="Docker"></i>',
+          attr: {
+            class: 'mt-5 d-block'
+          }
+        }
+      ],
+      footer: '<span class="badge badge-dark"><b>Início: </b>02/2024</span> - <span class="badge badge-success">Atualmente</span>'
+    },
+    {
       time: '2022-04-11',
-      header: 'Fullstack Developer (CLT)',
+      header: 'Engenheiro de Software Sênior (CLT)',
       body: [
         {
           tag: 'h2',
@@ -60,12 +124,14 @@ $(document).ready(function() {
         },
         {
           tag: 'p',
-          content: 'Desenvolvimento e manutenção de aplicações em PHP com o Zend Framework.' +
-            'Integração Contínua com Jenkins, GitLab e SVN. Utilização de metodologias ágeis Scrum e Kanban. Análise de Dados com Oracle.<br />' +
+          content: 'Desenvolvimento e manutenção de aplicações corporativas em PHP com Zend Framework, em projetos estratégicos de educação e saúde. ' +
+            'Integração Contínua com Jenkins, GitLab e SVN. Metodologias ágeis Scrum e Kanban. Análise de Dados com Oracle.<br />' +
             'Trabalhos Realizados:<br/>' +
             '<ul>' +
             '<li>Manutenção e Desenvolvimento de evolutivas para o <a href="https://sinar.mec.gov.br/" target="_blank">SINAR - Sistema Nacional de Residências em Saúde</a>;</li>' +
-            '<li>Manutenção e Desenvolvimento de evolutivas para a <a href="https://plataformacarolinabori.mec.gov.br/" target="_blank">Plataforma Carolina Bori - Revalidação/Reconhecimento de Diplomas Estrangeiros</a>.</li>' +
+            '<li>Manutenção e Desenvolvimento de evolutivas para a Educação em Saúde – Preceptoria;</li>' +
+            '<li>Manutenção e Desenvolvimento de evolutivas para a <a href="https://plataformacarolinabori.mec.gov.br/" target="_blank">Plataforma Carolina Bori - Revalidação/Reconhecimento de Diplomas Estrangeiros</a>;</li>' +
+            '<li>Manutenção e Desenvolvimento de evolutivas para a SisCNRM - Sistema da Comissão Nacional de Residência Médica.</li>' +
             '</ul>',
         },
         {
@@ -79,11 +145,11 @@ $(document).ready(function() {
           }
         }
       ],
-      footer: '<span class="badge badge-dark"><b>Início: </b>11/04/2022</span> - <span class="badge badge-success">Atualmente</span>'
+      footer: '<span class="badge badge-dark"><b>Início: </b>04/2022</span> - <span class="badge badge-success">Atualmente</span>'
     },
     {
       time: '2022-01-17',
-      header: 'Fullstack Developer (CLT)',
+      header: 'Full Stack Developer (CLT)',
       body: [
         {
           tag: 'h2',
@@ -104,12 +170,11 @@ $(document).ready(function() {
         },
         {
           tag: 'p',
-          content: 'Atuação na área de tecnologia do RC.<br/>' +
+          content: 'Desenvolvimento de soluções voltadas à integração de sistemas, automação de processos e aprimoramento de aplicações corporativas.<br/>' +
             'Trabalhos Realizados:<br/>' +
             '<ul>' +
             '<li>Desenvolvimento de componentes em React com integração ao Salesforce;</li>' +
             '<li>Desenvolvimento de rotinas automatizadas com Python via Cronjob e Apache Airflow;</li>' +
-            '<li>Análise e modelagem de dados com PortgreSQL;</li>' +
             '<li>Integração da API do Reclame Aqui ao Salesforce.</li>' +
             '</ul>',
           attr: {
@@ -129,7 +194,7 @@ $(document).ready(function() {
           }
         }
       ],
-      footer: '<span  class="badge badge-dark"><b>Início: </b>17/01/2022</span> - <span class="badge badge-dark"><b>Fim: </b>17/04/2023</span>'
+      footer: '<span class="badge badge-dark"><b>Início: </b>01/2022</span> - <span class="badge badge-dark"><b>Fim: </b>04/2023</span>'
     },
     {
       time: '2020-03-18',
@@ -200,11 +265,11 @@ $(document).ready(function() {
           }
         }
       ],
-      footer: '<span  class="badge badge-dark"><b>Início: </b>18/03/2020</span> - <span class="badge badge-dark"><b>Fim: </b> 14/01/2022</span>'
+      footer: '<span class="badge badge-dark"><b>Início: </b>03/2020</span> - <span class="badge badge-dark"><b>Fim: </b>01/2022</span>'
     },
     {
       time: '2016-04-01',
-      header: 'Fullstack Developer (CLT + PJ)',
+      header: 'Full Stack Developer (CLT + PJ)',
       body: [
         {
           tag: 'h2',
@@ -253,7 +318,7 @@ $(document).ready(function() {
           }
         }
       ],
-      footer: '<span  class="badge badge-dark"><b>Início: </b>01/04/2016</span> - <span class="badge badge-dark"><b>Fim: </b> 14/07/2019</span>'
+      footer: '<span class="badge badge-dark"><b>Início: </b>04/2016</span> - <span class="badge badge-dark"><b>Fim: </b>03/2020</span>'
     }
   ];
 
@@ -266,6 +331,12 @@ $(document).ready(function() {
     language: "pt-br",
     sortDesc: true
   });
+
+  // Tooltip e animação nos ícones de tecnologias
+  $('#myTimeline i[title].fa-2x, #myTimeline i[title].tech-icon')
+    .addClass('tech-hover')
+    .attr('data-toggle', 'tooltip')
+    .tooltip({ placement: 'top', container: 'body', trigger: 'hover' });
 
   $('#copyright-year').text(new Date().getFullYear());
 
